@@ -1,0 +1,88 @@
+:root {
+  font: 400 18px 'Roboto';
+  scroll-behavior: smooth;
+}
+
+* {
+  font: 400 18px 'Roboto';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page {
+  background-color: #f1f5f8;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.page__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.page__title {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form__input {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 5px;
+}
+
+.form__button {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #8A2BE2FF;
+  color: #f1f5f8;
+  cursor: pointer;
+  border: none;
+}
+
+.page__table {
+  border-collapse: separate;
+  border-spacing: 20px;
+  border-radius: 20px;
+  background-color: white;
+  width: 100%;
+  box-shadow: 8px 8px 2px 1px rgb(0, 0, 255, .2);
+}
+
+.table__info th {
+  text-align: left;
+  font-weight: bold;
+}
+
+.table__body tr {
+  border-bottom: 1px solid #aaa;
+}
+
+.table__body tr td {
+  min-width: 130px;
+}
+
+.page__error {
+  font-weight: bold;
+  font-size: 22px;
+  color: #ff6363;
+}
